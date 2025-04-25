@@ -1,0 +1,26 @@
+# Web framework
+flask==3.0.2
+
+# Discord bot
+discord.py==2.3.2
+
+# AI & ML
+openai==1.23.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP requests
+requests==2.31.0
+
+# Data handling
+pandas==2.2.2
+
+# Background tasks
+apscheduler==3.10.4
+
+# WebSocket support
+websockets==12.0
+
+# Fast performance
+uvicorn==0.29.0
