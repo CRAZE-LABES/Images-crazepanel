@@ -1,16 +1,9 @@
 {
-"Image": "quay.io/skyport/java:21",
-  "AltImages": [
-    "quay.io/skyport/java:21",
-    "docker.io/privt/java:18",
-    "docker.io/privt/java:17"
-  ],
+  "Image": "ghcr.io/ma4z-sys/yolks:minecraft_java_21",
   "Cmd": "",
-  "Env": [
-    "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar"
-  ],
-  "StopCommand": "stop",
-  "features":["eula"],
+  "Env": [],
+  "StartedMessage": "For help, type",
+  "features": ["eula"],
   "Scripts": {
     "Install": [
       {
@@ -18,28 +11,28 @@
         "Path": "server.jar"
       },
       {
-        "Uri": "https://raw.githubusercontent.com/skyportlabs/images_v2/main/spigotmc/server.properties",
+        "Uri": "https://raw.githubusercontent.com/hydren-dev/images_v2/main/spigotmc/server.properties",
         "Path": "server.properties"
       }
     ]
   },
-  "Variables": {
+   "Variables": {
     "Version": {
       "type": "text",
-      "default": "1.21.1",
+      "default": "1.21.4",
       "required": true
     },
     "Build": {
       "type": "text",
-      "default": "89",
+      "default": "72",
       "required": true
     }
   },
   "Name": "Minecraft Java: PaperMC",
   "Description": "PaperMC is an optimized, high-performance fork of SpigotMC for Minecraft servers. It aims to improve performance and stability by offering additional features, enhanced configuration options, and bug fixes. Known for its robust plugin compatibility and active development community, PaperMC is a preferred choice for server administrators looking to enhance their Minecraft multiplayer experience.",
-  "Author": "info@craze.dev",
-  "AuthorName": "craze Labs",
+  "Author": "info@hydren.us.kg",
+  "AuthorName": "HydrenLLC",
   "Meta": {
-    "Version": "crazelabs Images v1"
+    "Version": "Hydren Images"
   }
 }
