@@ -1,9 +1,7 @@
 {
-  "Image": "quay.io/skyport/java:21",
+  "Image": "ghcr.io/ma4z-sys/yolks:java",
   "AltImages": [
-    "quay.io/skyport/java:21",
-    "docker.io/privt/java:18",
-    "docker.io/privt/java:17"
+    "ghcr.io/hydren-dev/yolks:java"
   ],
   "Cmd": "",
   "Env": [
@@ -18,7 +16,7 @@
         "Path": "server.jar"
       },
       {
-        "Uri": "https://raw.githubusercontent.com/skyportlabs/images_v2/main/spigotmc/server.properties",
+        "Uri": "https://raw.githubusercontent.com/hydren-dev/images_v2/main/spigotmc/server.properties",
         "Path": "server.properties"
       }
     ]
@@ -32,9 +30,9 @@
   },
   "Name": "Minecraft Java: SpigotMC",
   "Description": "SpigotMC is a high-performance, open-source server software for Minecraft, designed to enhance and optimize the game's multiplayer experience. It offers extensive configuration options, a vibrant plugin ecosystem, and active community support, making it a popular choice for server administrators seeking to improve gameplay and server performance.",
-  "Author": "info@craze.dev",
-  "AuthorName": "Craze Labs",
+  "Author": "info@skyport.dev",
+  "AuthorName": "Skyport Labs",
   "Meta": {
-    "Version": "Craze images v1"
+    "Version": "Skyport Images v2"
   }
 }
